@@ -6,7 +6,7 @@ import dummyContacts from './components/ContactList'
 
 export default function Home() {
   const [contacts, setContacts] = useState(dummyContacts)
-  console.log("Contacts: ", dummyContacts)
+  console.log("Contacts: ", contacts)
   return (
     <>
       <ContactList />
